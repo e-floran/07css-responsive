@@ -1,0 +1,94 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    color:#777777;
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: normal;
+  }
+  ul{
+    list-style-type:none;
+    background-color:#111111;
+    font-size:14px;
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    vertical-align: middle;
+  }
+  li{
+    padding:5px 20px 5px 20px;
+    vertical-align: middle;
+  }
+  #precious{
+    font-size:18px;
+  }
+  #fellows{
+    background-color:#bbbbbb;
+    padding:9px 20px 7px 20px;
+  }
+  .carousel{
+    background-color:#cccccc;
+    text-align:center;
+  }
+  h2{
+    text-align:center;
+    font-size:24px;
+    margin:35px 0px;
+  }
+  #alive{
+    font-size:14px;
+  }
+  #doA{
+    text-align: center;
+  }
+  #doA article{
+    display: inline-block;
+    text-align: center;
+    background-color:#cccccc;
+    height:220px;
+    width:170px;
+  }
+  hr{
+    margin:70px 0px 0px 0px;
+  }
+  h3{
+    text-align:left;
+    font-size:24px;
+    margin:30px 0px;
+  }
+  form{
+    text-align:center;
+  }
+  input, textarea{
+    width:400px;
+    margin:5px 0;
+    border:1px solid #000000;
+  }
+  select{
+    width:400px;
+    margin:5px 0;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  textarea{
+    font-size:12px;
+    height:60px;
+  }
+  @media only screen and (max-width: 960px) {
+    .carousel{
+        display:none;
+      }
+      #doA article{
+        display: none;
+      }
+      h2{
+        font-size:32px;
+      }
+      #alive{
+        font-size:18px;
+      }
+      h3{
+        text-align:center;
+      }
+  }
